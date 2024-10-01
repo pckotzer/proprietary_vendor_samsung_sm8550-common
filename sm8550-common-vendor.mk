@@ -236,7 +236,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/seccomp_policy/qwesd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qwesd@2.0.policy \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
-    vendor/samsung/sm8550-common/proprietary/vendor/etc/secnvm/k250a_00000306.img:$(TARGET_COPY_OUT_VENDOR)/etc/secnvm/k250a_00000306.img \
+    vendor/samsung/sm8550-common/proprietary/vendor/etc/secnvm/k250a_47000301_0.img:$(TARGET_COPY_OUT_VENDOR)/etc/secnvm/k250a_47000301_0.img \
+    vendor/samsung/sm8550-common/proprietary/vendor/etc/secnvm/k250a_47000306_1.img:$(TARGET_COPY_OUT_VENDOR)/etc/secnvm/k250a_47000306_1.img \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/sensors/config/akmlib.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/akmlib.json \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/sensors/config/kailua_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_ak991x_0.json \
     vendor/samsung/sm8550-common/proprietary/vendor/etc/sensors/config/kailua_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kailua_default_sensors.json \
@@ -359,9 +360,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8550-common/proprietary/vendor/firmware/vpu33_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu33_4v_unsigned.mbn \
     vendor/samsung/sm8550-common/proprietary/vendor/firmware/wlan-connection-roaming-backup.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan-connection-roaming-backup.ini \
     vendor/samsung/sm8550-common/proprietary/vendor/firmware/wlan-connection-roaming.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan-connection-roaming.ini \
-    vendor/samsung/sm8550-common/proprietary/vendor/gpu/kbc/sequence_manifest.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/sequence_manifest.bin \
-    vendor/samsung/sm8550-common/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
-    vendor/samsung/sm8550-common/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin \
     vendor/samsung/sm8550-common/proprietary/vendor/lib/rfsa/adsp/bm3a68v08s11n29.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm3a68v08s11n29.bin \
     vendor/samsung/sm8550-common/proprietary/vendor/lib/rfsa/adsp/bm3a68v08s11n30.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm3a68v08s11n30.bin \
     vendor/samsung/sm8550-common/proprietary/vendor/lib/rfsa/adsp/bm3a68v08s11n35.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/bm3a68v08s11n35.bin \
@@ -459,13 +457,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/com.qti.stats.common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.stats.common.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/com.qualcomm.mcx.distortionmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.mcx.distortionmapper.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
-    vendor/samsung/sm8550-common/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/eglSubDriverAndroid.so \
-    vendor/samsung/sm8550-common/proprietary/vendor/lib64/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_adreno.so \
-    vendor/samsung/sm8550-common/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv1_CM_adreno.so \
-    vendor/samsung/sm8550-common/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv2_adreno.so \
-    vendor/samsung/sm8550-common/proprietary/vendor/lib64/egl/libVkLayer_ADRENO_qprofiler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libVkLayer_ADRENO_qprofiler.so \
-    vendor/samsung/sm8550-common/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
-    vendor/samsung/sm8550-common/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/ese_spi_nxp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ese_spi_nxp.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/hw/android.hardware.bluetooth.audio-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth.audio-impl-qti.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
@@ -485,7 +476,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so \
-    vendor/samsung/sm8550-common/proprietary/vendor/lib64/hw/vulkan.adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.adreno.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libAFSegmenter_v1.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAFSegmenter_v1.camera.samsung.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libAIHighRes_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAIHighRes_interface.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libAIMFISP.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAIMFISP.camera.samsung.so \
@@ -497,7 +487,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libBarcodeReader.vendor.quram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBarcodeReader.vendor.quram.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libBeauty_v4.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBeauty_v4.camera.samsung.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libBlurDetectionDeepLearning.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBlurDetectionDeepLearning.camera.samsung.so \
-    vendor/samsung/sm8550-common/proprietary/vendor/lib64/libCB.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCB.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libDLInterface.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDLInterface.camera.samsung.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libDepthBokehVideo_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDepthBokehVideo_interface.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libDeviceInfoProvider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDeviceInfoProvider.so \
@@ -535,7 +524,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libMotionEstimator.uniplugin@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMotionEstimator.uniplugin@1.0.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libMotionEstimatorWrapper.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMotionEstimatorWrapper.camera.samsung.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libObjectDetector_v1.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libObjectDetector_v1.camera.samsung.so \
-    vendor/samsung/sm8550-common/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libOpenCv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCv.camera.samsung.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libPanDetector.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libPanDetector.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libPeripheralStateUtils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libPeripheralStateUtils.so \
@@ -578,7 +566,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/lib_SamsungRec_08020.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_SamsungRec_08020.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/lib_SoundAlive_3DPosition_ver202.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_SoundAlive_3DPosition_ver202.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/lib_SoundAlive_AlbumArt_ver105.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_SoundAlive_AlbumArt_ver105.so \
-    vendor/samsung/sm8550-common/proprietary/vendor/lib64/lib_SoundAlive_play_plus_ver500.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_SoundAlive_play_plus_ver500.so \
+    vendor/samsung/sm8550-common/proprietary/vendor/lib64/lib_SoundAlive_play_plus_ver800.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_SoundAlive_play_plus_ver800.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/lib_SoundBooster_ver1100.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_SoundBooster_ver1100.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/lib_bt_aptx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bt_aptx.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/lib_bt_ble.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bt_ble.so \
@@ -586,8 +574,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/lib_lvacfs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_lvacfs.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/lib_profiler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_profiler.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libadm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadm.so \
-    vendor/samsung/sm8550-common/proprietary/vendor/lib64/libadreno_app_profiles.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadreno_app_profiles.so \
-    vendor/samsung/sm8550-common/proprietary/vendor/lib64/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadreno_utils.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsp_default_listener.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsprpc.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libai_denoiser_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libai_denoiser_interface.so \
@@ -697,9 +683,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libgnsspps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgnsspps.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libgps.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgps.utils.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libgpt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpt.so \
-    vendor/samsung/sm8550-common/proprietary/vendor/lib64/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpudataproducer.so \
-    vendor/samsung/sm8550-common/proprietary/vendor/lib64/libgralloc_helper.unifunc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc_helper.unifunc.so \
-    vendor/samsung/sm8550-common/proprietary/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libhand_interaction.uniplugin@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhand_interaction.uniplugin@1.0.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libhandgesture.arcsoft.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhandgesture.arcsoft.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libhdr10plus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr10plus.so \
@@ -739,8 +722,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libjpegencoder_sw.unifunc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpegencoder_sw.unifunc.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libjpegsq.media.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpegsq.media.samsung.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libjump_shot.uniplugin@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjump_shot.uniplugin@1.0.so \
-    vendor/samsung/sm8550-common/proprietary/vendor/lib64/libkcl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkcl.so \
-    vendor/samsung/sm8550-common/proprietary/vendor/lib64/libkernelmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkernelmanager.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libkeymasterutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterutils.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/liblbs_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblbs_core.so \
@@ -749,9 +730,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/liblivefocus_capture_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblivefocus_capture_interface.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/liblivefocus_preview_engine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblivefocus_preview_engine.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/liblivefocus_preview_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblivefocus_preview_interface.so \
-    vendor/samsung/sm8550-common/proprietary/vendor/lib64/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-glnext.so \
-    vendor/samsung/sm8550-common/proprietary/vendor/lib64/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qcom.so \
-    vendor/samsung/sm8550-common/proprietary/vendor/lib64/libllvm-qgl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qgl.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libloadalgo_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloadalgo_stub.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_api_v02.so \
     vendor/samsung/sm8550-common/proprietary/vendor/lib64/libloc_api_wds.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_api_wds.so \
@@ -1175,8 +1153,3 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.camera.provider-service.xml \
     vendor.samsung.hardware.thermal@1.0-manifest.xml \
     vendor.samsung.hardware.vibrator-default.xml
-
-PRODUCT_PACKAGES += \
-    libEGL_adreno_libEGL_adreno_symlink64 \
-    libGLESv2_adreno_libGLESv2_adreno_symlink64 \
-    libq3dtools_adreno_libq3dtools_adreno_symlink64
